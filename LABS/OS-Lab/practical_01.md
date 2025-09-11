@@ -1,0 +1,265 @@
+# EXPERIMENT - 1
+
+---
+
+## AIM
+
+To study the Introduction to Operating Systems (OS) — including the definition, functions, components, role, and history of Operating Systems along with case studies on Windows, Linux, MacOS.
+
+---
+
+## THEORY
+
+### Question : What is an Operating System?
+
+**Answer:** An Operating System (OS) is system software that acts as an interface between the computer hardware and the user.  
+It manages hardware resources (CPU, memory, I/O devices, files) and provides services so that users and application programs can run efficiently.
+
+---
+
+## FUNCTIONS OF OPERATING SYSTEM
+
+### 1. Process Management
+
+- **What it does:** Handles creation, scheduling, and termination of processes (programs in execution).
+- **Responsibilities:**
+  - CPU scheduling (which process gets CPU next).
+  - Context switching (saving/restoring process states).
+  - Synchronization & deadlock handling.
+- **Example:** Windows Task Manager showing running processes.
+
+### 2. Memory Management
+
+- **What it does:** Allocates and deallocates memory (RAM) to processes.
+- **Responsibilities:**
+  - Keeps track of free and used memory.
+  - Provides virtual memory (using disk as extension of RAM).
+  - Ensures processes don’t interfere with each other’s memory.
+- **Example:** Paging & segmentation in Linux.
+
+### 3. File System Management
+
+- **What it does:** Manages data storage, organization, retrieval, and permissions.
+- **Responsibilities:**
+  - Creates, reads, writes, deletes files.
+  - Maintains file directories & metadata.
+  - Controls access rights (read/write/execute).
+- **Example:** NTFS in Windows, ext4 in Linux.
+
+### 4. Device Management
+
+- **What it does:** Controls and coordinates use of hardware devices (I/O).
+- **Responsibilities:**
+  - Provides device drivers.
+  - Handles interrupts (signals from devices).
+  - Manages I/O buffering and caching.
+- **Example:** Printing a document → OS uses printer driver.
+
+### 5. Security & Protection
+
+- **What it does:** Protects data and resources from unauthorized access.
+- **Responsibilities:**
+  - User authentication (login, passwords, biometrics).
+  - Access control (permissions for files/programs).
+  - Encryption and firewall services.
+- **Example:** Windows login screen, Linux chmod.
+
+---
+
+## COMPONENTS OF OPERATING SYSTEM
+
+1. **Kernel**
+
+   - Core of the OS, directly interacts with hardware.
+   - Handles process, memory, and device management.
+
+2. **Process Management**
+
+   - Creates, schedules, and terminates processes.
+   - Responsible for CPU scheduling, multitasking, context switching.
+
+3. **Memory Management**
+
+   - Allocates and deallocates memory (RAM).
+   - Provides virtual memory using paging/segmentation.
+
+4. **File System Management**
+
+   - Manages storage of data and organization of files/directories.
+   - Controls file access, permissions, and metadata.
+
+5. **Device Management**
+
+   - Uses device drivers to control hardware devices.
+   - Manages input/output operations.
+
+6. **I/O System Management**
+
+   - Provides buffering, caching, and spooling.
+   - Ensures smooth data transfer between I/O devices and CPU.
+
+7. **Security & Protection**
+
+   - Protects system resources and user data.
+   - Provides authentication, access control, encryption.
+
+8. **User Interface (Shell)**
+   - Enables user to interact with OS.
+   - Two types:
+     - CLI (Command Line Interface) → e.g., Bash, PowerShell
+     - GUI (Graphical User Interface) → e.g., Windows desktop, Linux GNOME
+
+---
+
+## HISTORY OF OPERATING SYSTEMS
+
+### 1. Early Computers (No OS) – 1940s–1950s
+
+- Programs were loaded using punch cards or switches.
+- No operating system existed.
+- Only one program ran at a time.
+- **Example:** ENIAC, IBM 701.
+
+### 2. Batch Processing Systems – 1950s–1960s
+
+- **Definition:** Jobs (programs + data) were collected and executed in groups (batches), without user interaction during execution.
+- **Working:**
+  - Users submitted jobs to an operator.
+  - Operator grouped jobs into a batch → fed into computer.
+  - Output was received later.
+- **Pros:** Efficient use of CPU time, less idle time.
+- **Cons:** No interaction with program while running, long turnaround time.
+- **Examples:** IBM 1401 (used punch cards for batch jobs), IBM 7094.
+
+### 3. Multiprogramming Systems – 1960s
+
+- **Definition:** Multiple programs kept in memory at once; CPU switches between them when one waits for I/O.
+- **Advantage:** Better CPU utilization.
+- **Example:** IBM OS/360.
+
+### 4. Time-Sharing Systems – 1960s–1970s
+
+- **Definition:** Multiple users interact directly with the system simultaneously.
+- **CPU time** is divided into time-slices for each user.
+- **Example:** UNIX (early versions), CTSS.
+
+### 5. Multi-Processing Systems – 1970s–1980s
+
+- **Definition:** System with more than one CPU, working in parallel.
+- **Advantage:** Increased speed and reliability.
+- **Example:** DEC VAX, IBM System/370.
+
+### 6. Personal Computer Era – 1980s–1990s
+
+- Single-user, user-friendly OS with GUI.
+- **Examples:** MS-DOS (CLI), Windows 95, Mac OS (GUI).
+
+### 7. Modern OS – 2000s–Present
+
+- **Features:** Multi-core, multi-threading, networking, cloud, mobile OS.
+- **Examples:** Windows 11, macOS, Linux distributions (Ubuntu), Android, iOS.
+
+---
+
+## CASE STUDIES ON OPERATING SYSTEMS (WINDOWS, LINUX, MAC OS)
+
+(click on the image to download it)  
+(paste the image on the left side in the practical file along with the case study)  
+<img src="images/windows.jpg" alt="windows" width="60%">
+
+### 1. Case Study: Microsoft Windows
+
+**History:**
+
+- First released in 1985 as a graphical extension to MS-DOS.
+- Major versions: Windows 95, Windows XP, Windows 7, Windows 10, Windows 11.
+- Today, it is the most widely used desktop OS.
+
+**Key Features:**
+
+- GUI-based OS with windows, icons, and menus.
+- Plug and Play support for easy hardware configuration.
+- Supports multitasking and multi-user environments.
+- Huge software compatibility (applications and games).
+- Strong enterprise features (Active Directory, Networking, Cloud integration).
+
+**Advantages:**
+
+- User-friendly, widely supported by hardware and software vendors.
+- Regular updates and security patches.
+- Rich ecosystem for gaming, productivity, and enterprise.
+
+**Limitations:**
+
+- Expensive (licensed software).
+- Resource-heavy (requires more RAM/CPU compared to Linux).
+- More vulnerable to malware due to large user base.
+
+---
+
+(click on the image to download it)  
+(paste the image on the left side in the practical file along with the case study)  
+<img src="images/mac.jpg" alt="mac OS" width="60%">
+
+### 2. Case Study: macOS (Apple)
+
+**History:**
+
+- Developed by Apple Inc., released first as System Software (1984), later Mac OS, and now macOS.
+- Built on Unix foundation (BSD) with Apple’s proprietary GUI.
+- Exclusively runs on Apple hardware (MacBooks, iMacs, Mac Mini).
+
+**Key Features:**
+
+- Clean and intuitive GUI with consistent design.
+- Strong integration with Apple ecosystem (iPhone, iPad, iCloud).
+- Based on Darwin (Unix-like kernel), providing strong stability.
+- Advanced security features like Gatekeeper, XProtect.
+- Optimized hardware-software performance since Apple controls both.
+
+**Advantages:**
+
+- Highly stable and optimized for Apple devices.
+- Strong security and fewer malware threats compared to Windows.
+- Excellent for creative professionals (design, video editing, music production).
+
+**Limitations:**
+
+- Runs only on Apple hardware (expensive).
+- Limited gaming and third-party software support compared to Windows.
+- Less customizable than Linux.
+
+---
+
+(click on the image to download it)  
+(paste the image on the left side in the practical file along with the case study)  
+<img src="images/linux.jpeg" alt="linux" width="60%">
+
+### 3. Case Study: Linux
+
+**History:**
+
+- Created by Linus Torvalds in 1991 as a free, open-source Unix-like OS.
+- Distributed under the GNU General Public License (GPL).
+- Popular distributions: Ubuntu, Fedora, Debian, Red Hat, Arch Linux.
+
+**Key Features:**
+
+- Open-source → free to use, modify, and distribute.
+- Strong security and stability.
+- Supports command-line interface (CLI) and GUI.
+- Used in servers, supercomputers, embedded systems, and Android OS.
+- Highly customizable with multiple desktop environments.
+
+**Advantages:**
+
+- Free and community-driven.
+- Extremely stable and secure (preferred for servers).
+- Wide range of distributions for different use cases.
+
+**Limitations:**
+
+- Steeper learning curve for beginners (especially CLI usage).
+- Limited support for commercial software and high-end games (though improving with Steam/Proton).
+
+---
