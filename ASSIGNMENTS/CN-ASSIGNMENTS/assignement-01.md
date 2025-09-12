@@ -8,7 +8,7 @@
 
 ## **QUESTION 1 : Differentiate between guided and unguided media.**
 
-## **ANSWER 1 : **
+## **ANSWER 1 :**
 
 ### 1. Guided Media
 
