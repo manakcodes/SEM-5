@@ -93,8 +93,10 @@ Hardware components typically follow a **bathtub-shaped curve**:
 
 ### 3. Diagram (Representation)
 
-<!-- ![bathtub curve](images/bathtub.png) -->
-<img src="images/bathtub.png" alt="bathtub curve" width="400" height="250">
+
+<img src="images/hardware-bathtub.png" alt="bathtub curve" width="400" height="250">
+
+<img src="images/software-bathtub.png" alt="bathtub curve" width="400" height="250">
 
 ---
 
