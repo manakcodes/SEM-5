@@ -19,10 +19,10 @@ This repository contains :
 I do **not claim copyright** over any third-party content.  
 If you are a copyright holder and wish to request removal, please contact me.
 
-> [Computer Network Assignment 1](https://github.com/manakcodes/SEM-5/blob/94de942602ec2376811ae6f308a79ef18b4c076d/ASSIGNMENTS/CN-ASSIGNMENTS/assignement-01.md)
+> [Computer Network Assignment 1](https://github.com/manakcodes/SEM-5/blob/5c7f323c6ce0b179d789a834dd736ae3ce144cf8/ASSIGNMENTS/CN-ASSIGNMENTS/assignement-01.md)
 
-> [Computer Network Assignment 2](https://github.com/manakcodes/SEM-5/blob/94de942602ec2376811ae6f308a79ef18b4c076d/ASSIGNMENTS/CN-ASSIGNMENTS/assignement-02.md)
+> [Computer Network Assignment 2](https://github.com/manakcodes/SEM-5/blob/5c7f323c6ce0b179d789a834dd736ae3ce144cf8/ASSIGNMENTS/CN-ASSIGNMENTS/assignement-02.md)
 
-> [Software Engineering Assignment 1](https://github.com/manakcodes/SEM-5/blob/94de942602ec2376811ae6f308a79ef18b4c076d/ASSIGNMENTS/SE-ASSIGNMENTS/assignment-01.md)
+> [Software Engineering Assignment 1](https://github.com/manakcodes/SEM-5/blob/5c7f323c6ce0b179d789a834dd736ae3ce144cf8/ASSIGNMENTS/SE-ASSIGNMENTS/assignment-01.md)
 
-> [Operating Systems Practical 1](https://github.com/manakcodes/SEM-5/blob/94de942602ec2376811ae6f308a79ef18b4c076d/LABS/OS-Lab/practical-01.md)
+> [Operating Systems Practical 1](https://github.com/manakcodes/SEM-5/blob/5c7f323c6ce0b179d789a834dd736ae3ce144cf8/LABS/OS-Lab/practical-01.md)
