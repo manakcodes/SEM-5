@@ -108,21 +108,6 @@
 - Access control to the shared medium.
 - Physical transmission of data (electrical signals, radio waves, optical signals).
 
-### Tabular Summary of TCP/IP Model
-
-| Layer              | Function                                   | Protocols                         | Services                                    |
-| ------------------ | ------------------------------------------ | --------------------------------- | ------------------------------------------- |
-| **Application**    | Provides user services & applications      | HTTP, FTP, SMTP, DNS, Telnet, SSH | Web, Email, File transfer, Remote login     |
-| **Transport**      | End-to-end delivery, reliability, flow     | TCP, UDP                          | Reliable/unreliable delivery, multiplexing  |
-| **Internet**       | Logical addressing & routing               | IP, ICMP, ARP, RARP               | Packet delivery, routing, error reporting   |
-| **Network Access** | Physical transmission, hardware addressing | Ethernet, Wi-Fi, PPP, Frame Relay | Framing, error detection, physical delivery |
-
-**Key Idea:**
-
-- **Application Layer → What services users need**
-- **Transport Layer → Reliable/unreliable communication**
-- **Internet Layer → Where to send (logical addressing & routing)**
-- **Network Access Layer → How to send physically**
 
 ---
 
@@ -197,18 +182,6 @@ The process requires several key components to ensure accurate and efficient com
 - The **final target** for the message, usually the same as the receiver.
 - Ensures the **intended recipient gets the data accurately**.
 
-### Summary Table
-
-| Component           | Function / Description               | Example                                |
-| ------------------- | ------------------------------------ | -------------------------------------- |
-| Message             | Information to be transmitted        | Text, image, audio, video              |
-| Sender              | Generates and sends the message      | Computer, smartphone                   |
-| Receiver            | Receives and interprets the message  | Computer, printer, smartphone          |
-| Transmission Medium | Path through which data travels      | Twisted pair, fiber optic, radio waves |
-| Protocol            | Rules for communication              | TCP/IP, HTTP, FTP                      |
-| Encoder/Decoder     | Converts data to/from signals        | Modem, NIC                             |
-| Noise               | Unwanted interference affecting data | Crosstalk, electrical interference     |
-| Destination         | Final target of the message          | Intended receiving device              |
 
 ---
 
