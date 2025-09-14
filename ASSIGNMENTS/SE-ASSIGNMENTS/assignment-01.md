@@ -4,7 +4,7 @@
 
 ## QUESTIONS
 
-<img src="images/assignment-1-questions.jpg" alt="bathtub curve" width="400" height="250">
+<img src="images/assignment-1-questions.jpg" alt="questions jpg" width="400" height="250">
 
 ---
 
